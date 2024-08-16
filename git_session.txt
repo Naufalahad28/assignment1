@@ -1,0 +1,60 @@
+Script started on 2024-08-16 11:49:05+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="112" LINES="17"]
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ [7mgit config --global user.name "John Doe"[27mgit config --global user.name "John Doe"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"N"a"u"f"a"l"[C
+[?2004l[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ [7mgit config --global user.email johndoe@example.com[27mgit config --global user.email johndoe@example.com[C[C[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[C[1P@.com[1P@.com[1P@.com[1P@.com[1P@.com[1P@.com[1P@.comn@.coma@.comu@.comf@.coma@.coml@.coma@.comh@.coma@.comd@.com[1P@.com[1P@.com[1P@.com[1P@.com.@.coma@.comh@.coma@.comd@.com[C[Ct.comi.comg.come.comt.com[1P.comr.coma.comn.com [A(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.com[A(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl.com[A(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy.com[A(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.comi.com[Cs.com[C[C[1P.com[Cc.com[C[Cs.com
+[?2004l[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ got [K[K[Kit config --list
+[?2004l[?1h=user.name=Naufal[m
+user.email=naufal.ahad@tigeranalytics.com[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.symlinks=false[m
+core.ignorecase=true[m
+[K[?1l>[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git hr[Kelo[Kp config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                     Git Manual                                    GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|--null] nam[m e [value [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all name value [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --g[m et name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --g[m et-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] [--[m name-only] --get-regexp name_regex [value-pattern][m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git inti[K[Kit
+[?2004lReinitialized existing Git repository in /mnt/f/Projects/new_project/.git/
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git add *.C[Kc
+[?2004lfatal: pathspec '*.c' did not match any files
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git adf[Kd TE[K[KREADME
+[?2004lfatal: pathspec 'README' did not match any files
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git add '/mnt/c/Users/naufal.ahad/Desktop/my_unix_session.txt'
+[?2004lfatal: /mnt/c/Users/naufal.ahad/Desktop/my_unix_session.txt: '/mnt/c/Users/naufal.ahad/Desktop/my_unix_session.txt' is outside repository at '/mnt/f/Projects/new_project'
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git [K[K[K[Kcd [K[K[Kgit add '/mnt/c/Users/naufal.ahad/Desktop/my_unix_session.txt'[A(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ [C[C[C[C[C[C[C[CREADME[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K'/mnt/f/Projects/new_project/my_unix_session.txt'
+[?2004l[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   my_unix_session.txt[m
+
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git commit
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;17r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[15;50H(B[0;7m[ Reading... ](B[m[15;48H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 6.2                     /mnt/f/Projects/new_project/.git/COMMIT_EDITMSG                              [1;111H(B[m[16d(B[0;7m^G(B[m Help[16;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[16;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[17d(B[0;7m^X(B[m Exit[17;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[17;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[3d[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d#[8d# Initial commit[9d#[10d# Changes to be committed:[11d#[38;5;208m       [36mnew file:   my_unix_session.txt[12d#[2d[39m(B[m[?12l[?25h[?25l[15d[J[17d[?12l[?25h[17;1H[?1049l[23;0;0t[?1l>[?2004l[KAborting commit due to empty commit message.
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ git commitstatuscommit[Kgit commit -m "unis[Kx file"
+[?2004l[master (root-commit) 2a59794] unix file
+ 1 file changed, 4347 insertions(+)
+ create mode 100644 my_unix_session.txt
+[?2004h(base) ]0;naufalahad@TIGER05066: /mnt/f/Projects/new_project[01;32mnaufalahad@TIGER05066[00m:[01;34m/mnt/f/Projects/new_project[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-16 11:59:44+05:30 [COMMAND_EXIT_CODE="0"]

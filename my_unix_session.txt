@@ -1,0 +1,4347 @@
+Script started on 2024-08-14 11:03:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-14 11:04:07+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-08-14 11:27:57+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ exitconda init
+[?2004lno change     /home/naufalahad/conda/condabin/conda
+no change     /home/naufalahad/conda/bin/conda
+no change     /home/naufalahad/conda/bin/conda-env
+no change     /home/naufalahad/conda/bin/activate
+no change     /home/naufalahad/conda/bin/deactivate
+no change     /home/naufalahad/conda/etc/profile.d/conda.sh
+no change     /home/naufalahad/conda/etc/fish/conf.d/conda.fish
+no change     /home/naufalahad/conda/shell/condabin/Conda.psm1
+no change     /home/naufalahad/conda/shell/condabin/conda-hook.ps1
+no change     /home/naufalahad/conda/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/naufalahad/conda/etc/profile.d/conda.csh
+no change     /home/naufalahad/.bashrc
+No action taken.
+[?2004h(base) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ conda init[6Pexit
+[?2004lexit
+
+Script done on 2024-08-14 11:28:04+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-08-14 12:00:01+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ [7mconda create -n[27mconda create -n myenvironment
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.3.0
+    latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/naufalahad/conda/envs/myenvironment
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: \ done
+Verifying transaction: / - \ done
+Executing transaction: / done
+#
+# To activate this environment, use
+#
+#     $ conda activate myenvironment
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ conda activate en[K[Kmyenvironment
+[?2004l[?2004h(myenvironment) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ [7mconda create -n myenvironment python numpy pandas[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda create -n myenvironment python numpy pandas
+[?2004lWARNING: A conda environment already exists at '/home/naufalahad/conda/envs/myenvironment'
+Remove existing environment (y/[n])? y
+
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - done
+Solving environment: | / done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.3.0
+    latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/naufalahad/conda/envs/myenvironment
+
+  added / updated specs:
+    - numpy
+    - pandas
+    - python
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bzip2-1.0.8                |       h4bc722e_7         247 KB  conda-forge
+    ca-certificates-2024.7.4   |       hbcca054_0         151 KB  conda-forge
+    ld_impl_linux-64-2.40      |       hf3520f5_7         691 KB  conda-forge
+    libblas-3.9.0              |23_linux64_openblas          15 KB  conda-forge
+    libcblas-3.9.0             |23_linux64_openblas          14 KB  conda-forge
+    libexpat-2.6.2             |       h59595ed_0          72 KB  conda-forge
+    libgcc-ng-14.1.0           |       h77fa898_0         822 KB  conda-forge
+    libgfortran-ng-14.1.0      |       h69a702a_0          49 KB  conda-forge
+    libgfortran5-14.1.0        |       hc5f4f2c_0         1.4 MB  conda-forge
+    libgomp-14.1.0             |       h77fa898_0         446 KB  conda-forge
+    liblapack-3.9.0            |23_linux64_openblas          14 KB  conda-forge
+    libopenblas-0.3.27         |pthreads_hac2b453_1         5.3 MB  conda-forge
+    libsqlite-3.46.0           |       hde9e2c9_0         845 KB  conda-forge
+    libstdcxx-ng-14.1.0        |       hc0a3c3a_0         3.7 MB  conda-forge
+    libzlib-1.3.1              |       h4ab18f5_1          60 KB  conda-forge
+    ncurses-6.5                |       h59595ed_0         867 KB  conda-forge
+    numpy-2.0.1                |  py312h1103770_0         8.0 MB  conda-forge
+    openssl-3.3.1              |       h4bc722e_2         2.8 MB  conda-forge
+    pandas-2.2.2               |  py312h1d6d2e6_1        14.7 MB  conda-forge
+    pip-24.2                   |     pyhd8ed1ab_0         1.2 MB  conda-forge
+    python-3.12.5              |h2ad013b_0_cpython        30.2 MB  conda-forge
+    python-dateutil-2.9.0      |     pyhd8ed1ab_0         218 KB  conda-forge
+    python-tzdata-2024.1       |     pyhd8ed1ab_0         141 KB  conda-forge
+    python_abi-3.12            |          4_cp312           6 KB  conda-forge
+    pytz-2024.1                |     pyhd8ed1ab_0         184 KB  conda-forge
+    setuptools-72.1.0          |     pyhd8ed1ab_0         1.4 MB  conda-forge
+    six-1.16.0                 |     pyh6c4a22f_0          14 KB  conda-forge
+    wheel-0.44.0               |     pyhd8ed1ab_0          57 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        73.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2024.7.4-hbcca054_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.40-hf3520f5_7 
+  libblas            conda-forge/linux-64::libblas-3.9.0-23_linux64_openblas 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-23_linux64_openblas 
+  libexpat           conda-forge/linux-64::libexpat-2.6.2-h59595ed_0 
+  libffi             conda-forge/linux-64::libffi-3.4.2-h7f98852_5 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-14.1.0-h77fa898_0 
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-14.1.0-h69a702a_0 
+  libgfortran5       conda-forge/linux-64::libgfortran5-14.1.0-hc5f4f2c_0 
+  libgomp            conda-forge/linux-64::libgomp-14.1.0-h77fa898_0 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-23_linux64_openblas 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hd590300_0 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.27-pthreads_hac2b453_1 
+  libsqlite          conda-forge/linux-64::libsqlite-3.46.0-hde9e2c9_0 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-14.1.0-hc0a3c3a_0 
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0 
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.36-hd590300_1 
+  libzlib            conda-forge/linux-64::libzlib-1.3.1-h4ab18f5_1 
+  ncurses            conda-forge/linux-64::ncurses-6.5-h59595ed_0 
+  numpy              conda-forge/linux-64::numpy-2.0.1-py312h1103770_0 
+  openssl            conda-forge/linux-64::openssl-3.3.1-h4bc722e_2 
+  pandas             conda-forge/linux-64::pandas-2.2.2-py312h1d6d2e6_1 
+  pip                conda-forge/noarch::pip-24.2-pyhd8ed1ab_0 
+  python             conda-forge/linux-64::python-3.12.5-h2ad013b_0_cpython 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0-pyhd8ed1ab_0 
+  python-tzdata      conda-forge/noarch::python-tzdata-2024.1-pyhd8ed1ab_0 
+  python_abi         conda-forge/linux-64::python_abi-3.12-4_cp312 
+  pytz               conda-forge/noarch::pytz-2024.1-pyhd8ed1ab_0 
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1 
+  setuptools         conda-forge/noarch::setuptools-72.1.0-pyhd8ed1ab_0 
+  six                conda-forge/noarch::six-1.16.0-pyh6c4a22f_0 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101 
+  tzdata             conda-forge/noarch::tzdata-2024a-h0c530f3_0 
+  wheel              conda-forge/noarch::wheel-0.44.0-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.2.6-h166bdaf_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+python-3.12.5        | 30.2 MB   |                                                                               |   0% 
+pandas-2.2.2         | 14.7 MB   |                                                                               |   0% [A
+
+numpy-2.0.1          | 8.0 MB    |                                                                               |   0% [A[A
+
+
+libopenblas-0.3.27   | 5.3 MB    |                                                                               |   0% [A[A[A
+
+
+
+libstdcxx-ng-14.1.0  | 3.7 MB    |                                                                               |   0% [A[A[A[A
+
+
+
+
+openssl-3.3.1        | 2.8 MB    |                                                                               |   0% [A[A[A[A[A
+
+
+
+
+
+setuptools-72.1.0    | 1.4 MB    |                                                                               |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libgfortran5-14.1.0  | 1.4 MB    |                                                                               |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pip-24.2             | 1.2 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+ncurses-6.5          | 867 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libsqlite-3.46.0     | 845 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-14.1.0     | 822 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 691 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-14.1.0       | 446 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+bzip2-1.0.8          | 247 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-dateutil-2.9. | 218 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytz-2024.1          | 184 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2024 | 151 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-tzdata-2024.1 | 141 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.6.2       | 72 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.1        | 60 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 57 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgfortran-ng-14.1. | 49 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libblas-3.9.0        | 15 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | 14 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | 14 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+six-1.16.0           | 14 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python_abi-3.12      | 6 KB      |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apython-3.12.5        | 30.2 MB   |                                                                               |   0% 
+
+
+libopenblas-0.3.27   | 5.3 MB    | 2                                                                             |   0% [A[A[A
+
+
+
+libstdcxx-ng-14.1.0  | 3.7 MB    | 3                                                                             |   0% [A[A[A[A
+pandas-2.2.2         | 14.7 MB   |                                                                               |   0% [A
+
+numpy-2.0.1          | 8.0 MB    | 1                                                                             |   0% [A[Apython-3.12.5        | 30.2 MB   | ####3                                                                         |   6% 
+
+
+libopenblas-0.3.27   | 5.3 MB    | ###############8                                                              |  21% [A[A[A
+
+
+
+libstdcxx-ng-14.1.0  | 3.7 MB    | ######################4                                                       |  29% [A[A[A[A
+pandas-2.2.2         | 14.7 MB   | ###1                                                                          |   4% [A
+
+numpy-2.0.1          | 8.0 MB    | #####4                                                                        |   7% [A[Apython-3.12.5        | 30.2 MB   | ######8                                                                       |   9% 
+
+
+libopenblas-0.3.27   | 5.3 MB    | #############################7                                                |  39% [A[A[A
+
+
+
+libstdcxx-ng-14.1.0  | 3.7 MB    | ######################################6                                       |  50% [A[A[A[A
+pandas-2.2.2         | 14.7 MB   | ########4                                                                     |  11% [A
+
+numpy-2.0.1          | 8.0 MB    | ###############7                                                              |  20% [A[Apython-3.12.5        | 30.2 MB   | #########2                                                                    |  12% 
+
+
+libopenblas-0.3.27   | 5.3 MB    | ########################################5                                     |  53% [A[A[A
+pandas-2.2.2         | 14.7 MB   | ############4                                                                 |  16% [A
+
+
+
+libstdcxx-ng-14.1.0  | 3.7 MB    | ######################################################9                       |  71% [A[A[A[A
+
+numpy-2.0.1          | 8.0 MB    | ######################                                                        |  29% [A[Apython-3.12.5        | 30.2 MB   | ############3                                                                 |  16% 
+
+
+libopenblas-0.3.27   | 5.3 MB    | ###################################################                           |  66% [A[A[A
+
+
+
+libstdcxx-ng-14.1.0  | 3.7 MB    | ###################################################################9          |  88% [A[A[A[A
+
+numpy-2.0.1          | 8.0 MB    | ###########################8                                                  |  36% [A[Apython-3.12.5        | 30.2 MB   | ##############9                                                               |  19% 
+
+
+libopenblas-0.3.27   | 5.3 MB    | #############################################################2                |  80% [A[A[A
+pandas-2.2.2         | 14.7 MB   | ###############6                                                              |  20% [A
+
+numpy-2.0.1          | 8.0 MB    | ########################################3                                     |  52% [A[Apython-3.12.5        | 30.2 MB   | ##################4                                                           |  24% 
+
+
+
+
+openssl-3.3.1        | 2.8 MB    | 4                                                                             |   1% [A[A[A[A[A
+
+
+libopenblas-0.3.27   | 5.3 MB    | #########################################################################     |  95% [A[A[A
+pandas-2.2.2         | 14.7 MB   | ##################2                                                           |  24% [A
+
+numpy-2.0.1          | 8.0 MB    | #################################################8                            |  65% [A[Apython-3.12.5        | 30.2 MB   | #####################8                                                        |  28% 
+
+
+
+
+openssl-3.3.1        | 2.8 MB    | #####################3                                                        |  28% [A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | #####################2                                                        |  28% [A
+
+numpy-2.0.1          | 8.0 MB    | ###############################################################1              |  82% [A[Apython-3.12.5        | 30.2 MB   | #########################3                                                    |  33% 
+
+
+
+libstdcxx-ng-14.1.0  | 3.7 MB    | ############################################################################# | 100% [A[A[A[A
+
+
+libopenblas-0.3.27   | 5.3 MB    | ############################################################################# | 100% [A[A[A
+
+
+
+
+openssl-3.3.1        | 2.8 MB    | ############################################4                                 |  58% [A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | #######################8                                                      |  31% [A
+
+numpy-2.0.1          | 8.0 MB    | #########################################################################     |  95% [A[Apython-3.12.5        | 30.2 MB   | ############################4                                                 |  37% 
+
+
+
+
+openssl-3.3.1        | 2.8 MB    | ###################################################################5          |  88% [A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | ###########################7                                                  |  36% [A
+
+
+
+
+
+
+libgfortran5-14.1.0  | 1.4 MB    | 8                                                                             |   1% [A[A[A[A[A[A[Apython-3.12.5        | 30.2 MB   | #################################1                                            |  43% 
+pandas-2.2.2         | 14.7 MB   | ################################2                                             |  42% [A
+
+
+
+
+
+
+
+pip-24.2             | 1.2 MB    | #                                                                             |   1% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgfortran5-14.1.0  | 1.4 MB    | ################################################################9             |  84% [A[A[A[A[A[A[Apython-3.12.5        | 30.2 MB   | #####################################5                                        |  49% 
+
+
+
+
+
+setuptools-72.1.0    | 1.4 MB    | 8                                                                             |   1% [A[A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | ####################################8                                         |  48% [A
+
+
+
+
+
+
+
+pip-24.2             | 1.2 MB    | ##############################################################1               |  81% [A[A[A[A[A[A[A[Apython-3.12.5        | 30.2 MB   | #########################################5                                    |  54% 
+
+
+
+
+
+
+libgfortran5-14.1.0  | 1.4 MB    | ############################################################################# | 100% [A[A[A[A[A[A[A
+
+
+
+
+openssl-3.3.1        | 2.8 MB    | ############################################################################# | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+pip-24.2             | 1.2 MB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+setuptools-72.1.0    | 1.4 MB    | ############                                                                  |  16% [A[A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | ########################################4                                     |  53% [Apython-3.12.5        | 30.2 MB   | #############################################1                                |  59% 
+
+
+
+
+
+setuptools-72.1.0    | 1.4 MB    | ###########################################9                                  |  57% [A[A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | ###############################################4                              |  62% [Apython-3.12.5        | 30.2 MB   | ###################################################7                          |  67% 
+
+numpy-2.0.1          | 8.0 MB    | ############################################################################# | 100% [A[A
+
+
+
+
+
+setuptools-72.1.0    | 1.4 MB    | ########################################################################4     |  94% [A[A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | #####################################################7                        |  70% [Apython-3.12.5        | 30.2 MB   | #########################################################3                    |  74% 
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-14.1.0     | 822 KB    | #4                                                                            |   2% [A[A[A[A[A[A[A[A[A[A[Apython-3.12.5        | 30.2 MB   | ################################################################5             |  84% 
+pandas-2.2.2         | 14.7 MB   | ##############################################################2               |  81% [A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-14.1.0     | 822 KB    | ########################################################9                     |  74% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libsqlite-3.46.0     | 845 KB    | #4                                                                            |   2% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+setuptools-72.1.0    | 1.4 MB    | ############################################################################# | 100% [A[A[A[A[A[Apython-3.12.5        | 30.2 MB   | #####################################################################6        |  90% 
+pandas-2.2.2         | 14.7 MB   | #####################################################################         |  90% [A
+
+
+
+
+
+
+
+
+
+libsqlite-3.46.0     | 845 KB    | #####8                                                                        |   8% [A[A[A[A[A[A[A[A[A[Apython-3.12.5        | 30.2 MB   | ###########################################################################4  |  98% 
+pandas-2.2.2         | 14.7 MB   | ############################################################################5 |  99% [A
+
+
+
+
+
+
+
+
+
+libsqlite-3.46.0     | 845 KB    | #################################################5                            |  64% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 691 KB    | #7                                                                            |   2% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-14.1.0       | 446 KB    | ##7                                                                           |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+bzip2-1.0.8          | 247 KB    | ####9                                                                         |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-dateutil-2.9. | 218 KB    | #####6                                                                        |   7% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libsqlite-3.46.0     | 845 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libsqlite-3.46.0     | 845 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytz-2024.1          | 184 KB    | ######6                                                                       |   9% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2024 | 151 KB    | ########1                                                                     |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-tzdata-2024.1 | 141 KB    | ########7                                                                     |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.1        | 60 KB     | ####################4                                                         |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.6.2       | 72 KB     | #################1                                                            |  22% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 691 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 691 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 57 KB     | #####################5                                                        |  28% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgfortran-ng-14.1. | 49 KB     | #########################2                                                    |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | 14 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libblas-3.9.0        | 15 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+six-1.16.0           | 14 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | 14 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python_abi-3.12      | 6 KB      | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-14.1.0       | 446 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-14.1.0       | 446 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+bzip2-1.0.8          | 247 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+bzip2-1.0.8          | 247 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-14.1.0     | 822 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2024 | 151 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2024 | 151 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-dateutil-2.9. | 218 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-dateutil-2.9. | 218 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+ncurses-6.5          | 867 KB    | #4                                                                            |   2% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytz-2024.1          | 184 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytz-2024.1          | 184 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.1        | 60 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.1        | 60 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.6.2       | 72 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.6.2       | 72 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-tzdata-2024.1 | 141 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-tzdata-2024.1 | 141 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 57 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 57 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | 14 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgfortran-ng-14.1. | 49 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgfortran-ng-14.1. | 49 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+six-1.16.0           | 14 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libblas-3.9.0        | 15 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python_abi-3.12      | 6 KB      | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | 14 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+ncurses-6.5          | 867 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+ncurses-6.5          | 867 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A
+pandas-2.2.2         | 14.7 MB   | ############################################################################# | 100% [Apython-3.12.5        | 30.2 MB   | ############################################################################# | 100%                                                                                                                         
+                                                                                                                        [A
+
+                                                                                                                        [A[A
+
+
+                                                                                                                        [A[A[A
+
+
+
+                                                                                                                        [A[A[A[A
+
+
+
+
+                                                                                                                        [A[A[A[A[A
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: \ | / done
+Verifying transaction: \ | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate myenvironment
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(myenvironment) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h(myenvironment) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ [7mconda info --envs[27mconda info --envs
+[?2004l# conda environments:
+#
+base                     /home/naufalahad/conda
+myenvironment         *  /home/naufalahad/conda/envs/myenvironment
+
+[?2004h(myenvironment) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ [7mconda install --name myenvironment matplotlib[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda install --name myenvironment matplotlib
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | done
+Solving environment: - \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.3.0
+    latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/naufalahad/conda/envs/myenvironment
+
+  added / updated specs:
+    - matplotlib
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    alsa-lib-1.2.12            |       h4ab18f5_0         543 KB  conda-forge
+    brotli-1.1.0               |       hd590300_1          19 KB  conda-forge
+    brotli-bin-1.1.0           |       hd590300_1          19 KB  conda-forge
+    cairo-1.18.0               |       hebfffa5_3         961 KB  conda-forge
+    certifi-2024.7.4           |     pyhd8ed1ab_0         156 KB  conda-forge
+    contourpy-1.2.1            |  py312h8572e83_0         251 KB  conda-forge
+    cycler-0.12.1              |     pyhd8ed1ab_0          13 KB  conda-forge
+    dbus-1.13.6                |       h5008d03_3         604 KB  conda-forge
+    double-conversion-3.3.0    |       h59595ed_0          77 KB  conda-forge
+    expat-2.6.2                |       h59595ed_0         134 KB  conda-forge
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_2         1.5 MB  conda-forge
+    fontconfig-2.14.2          |       h14ed4e7_0         266 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |                0           4 KB  conda-forge
+    fonttools-4.53.1           |  py312h41a817b_0         2.7 MB  conda-forge
+    freetype-2.12.1            |       h267a509_2         620 KB  conda-forge
+    graphite2-1.3.13           |    h59595ed_1003          95 KB  conda-forge
+    harfbuzz-9.0.0             |       hda332d3_1         1.5 MB  conda-forge
+    icu-75.1                   |       he02047a_0        11.6 MB  conda-forge
+    kiwisolver-1.4.5           |  py312h8572e83_1          70 KB  conda-forge
+    krb5-1.21.3                |       h659f571_0         1.3 MB  conda-forge
+    lcms2-2.16                 |       hb7c19ff_0         239 KB  conda-forge
+    lerc-4.0.0                 |       h27087fc_0         275 KB  conda-forge
+    libbrotlicommon-1.1.0      |       hd590300_1          68 KB  conda-forge
+    libbrotlidec-1.1.0         |       hd590300_1          32 KB  conda-forge
+    libbrotlienc-1.1.0         |       hd590300_1         276 KB  conda-forge
+    libclang-cpp18.1-18.1.8    |default_hf981a13_2        18.3 MB  conda-forge
+    libclang13-18.1.8          |default_h9def88c_2        10.5 MB  conda-forge
+    libcups-2.3.3              |       h4637d8d_4         4.3 MB  conda-forge
+    libdeflate-1.21            |       h4bc722e_0          69 KB  conda-forge
+    libdrm-2.4.122             |       h4ab18f5_0         298 KB  conda-forge
+    libglib-2.80.3             |       h315aac3_2         3.7 MB  conda-forge
+    libjpeg-turbo-3.0.0        |       hd590300_1         604 KB  conda-forge
+    libllvm18-18.1.8           |       h8b73ec9_2        36.5 MB  conda-forge
+    libpciaccess-0.18          |       hd590300_0          28 KB  conda-forge
+    libpng-1.6.43              |       h2797004_0         281 KB  conda-forge
+    libpq-16.4                 |       h482b261_0         2.4 MB  conda-forge
+    libtiff-4.6.0              |       h46a8edc_4         276 KB  conda-forge
+    libwebp-base-1.4.0         |       hd590300_0         429 KB  conda-forge
+    libxcb-1.16                |       hd590300_0         386 KB  conda-forge
+    libxkbcommon-1.7.0         |       h2c5496b_1         579 KB  conda-forge
+    libxml2-2.12.7             |       he7c6b58_4         691 KB  conda-forge
+    libxslt-1.1.39             |       h76b75d6_0         248 KB  conda-forge
+    matplotlib-3.9.1           |  py312h7900ff3_2           9 KB  conda-forge
+    matplotlib-base-3.9.1      |  py312h854627b_2         7.7 MB  conda-forge
+    munkres-1.1.4              |     pyh9f0ad1d_0          12 KB  conda-forge
+    mysql-common-8.3.0         |       h70512c7_5         762 KB  conda-forge
+    mysql-libs-8.3.0           |       ha479ceb_5         1.5 MB  conda-forge
+    openjpeg-2.5.2             |       h488ebb8_0         334 KB  conda-forge
+    packaging-24.1             |     pyhd8ed1ab_0          49 KB  conda-forge
+    pcre2-10.44                |       hba22ea6_2         930 KB  conda-forge
+    pillow-10.4.0              |  py312h287a98d_0        40.1 MB  conda-forge
+    pixman-0.43.2              |       h59595ed_0         378 KB  conda-forge
+    pthread-stubs-0.4          |    h36c2ea0_1001           5 KB  conda-forge
+    pyparsing-3.1.2            |     pyhd8ed1ab_0          87 KB  conda-forge
+    pyside6-6.7.2              |  py312hb5137db_2        10.1 MB  conda-forge
+    qhull-2020.2               |       h434a139_5         540 KB  conda-forge
+    qt6-main-6.7.2             |       hb12f9c5_4        44.4 MB  conda-forge
+    tornado-6.4.1              |  py312h9a8786e_0         820 KB  conda-forge
+    wayland-1.23.0             |       h5291e77_0         315 KB  conda-forge
+    xcb-util-0.4.1             |       hb711507_2          19 KB  conda-forge
+    xcb-util-cursor-0.1.4      |       h4ab18f5_2          20 KB  conda-forge
+    xcb-util-image-0.4.0       |       hb711507_2          24 KB  conda-forge
+    xcb-util-keysyms-0.4.1     |       hb711507_0          14 KB  conda-forge
+    xcb-util-renderutil-0.3.10 |       hb711507_0          17 KB  conda-forge
+    xcb-util-wm-0.4.2          |       hb711507_0          50 KB  conda-forge
+    xkeyboard-config-2.42      |       h4ab18f5_0         380 KB  conda-forge
+    xorg-kbproto-1.0.7         |    h7f98852_1002          27 KB  conda-forge
+    xorg-libice-1.1.1          |       hd590300_0          57 KB  conda-forge
+    xorg-libsm-1.2.4           |       h7391055_0          27 KB  conda-forge
+    xorg-libx11-1.8.9          |       hb711507_1         813 KB  conda-forge
+    xorg-libxau-1.0.11         |       hd590300_0          14 KB  conda-forge
+    xorg-libxdmcp-1.1.3        |       h7f98852_0          19 KB  conda-forge
+    xorg-libxext-1.3.4         |       h0b41bf4_2          49 KB  conda-forge
+    xorg-libxrender-0.9.11     |       hd590300_0          37 KB  conda-forge
+    xorg-renderproto-0.11.1    |    h7f98852_1002           9 KB  conda-forge
+    xorg-xextproto-7.3.0       |    h0b41bf4_1003          30 KB  conda-forge
+    xorg-xproto-7.0.31         |    h7f98852_1007          73 KB  conda-forge
+    zlib-1.3.1                 |       h4ab18f5_1          91 KB  conda-forge
+    zstd-1.5.6                 |       ha6fb4c9_0         542 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       214.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  alsa-lib           conda-forge/linux-64::alsa-lib-1.2.12-h4ab18f5_0 
+  brotli             conda-forge/linux-64::brotli-1.1.0-hd590300_1 
+  brotli-bin         conda-forge/linux-64::brotli-bin-1.1.0-hd590300_1 
+  cairo              conda-forge/linux-64::cairo-1.18.0-hebfffa5_3 
+  certifi            conda-forge/noarch::certifi-2024.7.4-pyhd8ed1ab_0 
+  contourpy          conda-forge/linux-64::contourpy-1.2.1-py312h8572e83_0 
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_0 
+  dbus               conda-forge/linux-64::dbus-1.13.6-h5008d03_3 
+  double-conversion  conda-forge/linux-64::double-conversion-3.3.0-h59595ed_0 
+  expat              conda-forge/linux-64::expat-2.6.2-h59595ed_0 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_2 
+  fontconfig         conda-forge/linux-64::fontconfig-2.14.2-h14ed4e7_0 
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0 
+  fonttools          conda-forge/linux-64::fonttools-4.53.1-py312h41a817b_0 
+  freetype           conda-forge/linux-64::freetype-2.12.1-h267a509_2 
+  graphite2          conda-forge/linux-64::graphite2-1.3.13-h59595ed_1003 
+  harfbuzz           conda-forge/linux-64::harfbuzz-9.0.0-hda332d3_1 
+  icu                conda-forge/linux-64::icu-75.1-he02047a_0 
+  keyutils           conda-forge/linux-64::keyutils-1.6.1-h166bdaf_0 
+  kiwisolver         conda-forge/linux-64::kiwisolver-1.4.5-py312h8572e83_1 
+  krb5               conda-forge/linux-64::krb5-1.21.3-h659f571_0 
+  lcms2              conda-forge/linux-64::lcms2-2.16-hb7c19ff_0 
+  lerc               conda-forge/linux-64::lerc-4.0.0-h27087fc_0 
+  libbrotlicommon    conda-forge/linux-64::libbrotlicommon-1.1.0-hd590300_1 
+  libbrotlidec       conda-forge/linux-64::libbrotlidec-1.1.0-hd590300_1 
+  libbrotlienc       conda-forge/linux-64::libbrotlienc-1.1.0-hd590300_1 
+  libclang-cpp18.1   conda-forge/linux-64::libclang-cpp18.1-18.1.8-default_hf981a13_2 
+  libclang13         conda-forge/linux-64::libclang13-18.1.8-default_h9def88c_2 
+  libcups            conda-forge/linux-64::libcups-2.3.3-h4637d8d_4 
+  libdeflate         conda-forge/linux-64::libdeflate-1.21-h4bc722e_0 
+  libdrm             conda-forge/linux-64::libdrm-2.4.122-h4ab18f5_0 
+  libedit            conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2 
+  libglib            conda-forge/linux-64::libglib-2.80.3-h315aac3_2 
+  libiconv           conda-forge/linux-64::libiconv-1.17-hd590300_2 
+  libjpeg-turbo      conda-forge/linux-64::libjpeg-turbo-3.0.0-hd590300_1 
+  libllvm18          conda-forge/linux-64::libllvm18-18.1.8-h8b73ec9_2 
+  libpciaccess       conda-forge/linux-64::libpciaccess-0.18-hd590300_0 
+  libpng             conda-forge/linux-64::libpng-1.6.43-h2797004_0 
+  libpq              conda-forge/linux-64::libpq-16.4-h482b261_0 
+  libtiff            conda-forge/linux-64::libtiff-4.6.0-h46a8edc_4 
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.4.0-hd590300_0 
+  libxcb             conda-forge/linux-64::libxcb-1.16-hd590300_0 
+  libxkbcommon       conda-forge/linux-64::libxkbcommon-1.7.0-h2c5496b_1 
+  libxml2            conda-forge/linux-64::libxml2-2.12.7-he7c6b58_4 
+  libxslt            conda-forge/linux-64::libxslt-1.1.39-h76b75d6_0 
+  matplotlib         conda-forge/linux-64::matplotlib-3.9.1-py312h7900ff3_2 
+  matplotlib-base    conda-forge/linux-64::matplotlib-base-3.9.1-py312h854627b_2 
+  munkres            conda-forge/noarch::munkres-1.1.4-pyh9f0ad1d_0 
+  mysql-common       conda-forge/linux-64::mysql-common-8.3.0-h70512c7_5 
+  mysql-libs         conda-forge/linux-64::mysql-libs-8.3.0-ha479ceb_5 
+  openjpeg           conda-forge/linux-64::openjpeg-2.5.2-h488ebb8_0 
+  packaging          conda-forge/noarch::packaging-24.1-pyhd8ed1ab_0 
+  pcre2              conda-forge/linux-64::pcre2-10.44-hba22ea6_2 
+  pillow             conda-forge/linux-64::pillow-10.4.0-py312h287a98d_0 
+  pixman             conda-forge/linux-64::pixman-0.43.2-h59595ed_0 
+  pthread-stubs      conda-forge/linux-64::pthread-stubs-0.4-h36c2ea0_1001 
+  pyparsing          conda-forge/noarch::pyparsing-3.1.2-pyhd8ed1ab_0 
+  pyside6            conda-forge/linux-64::pyside6-6.7.2-py312hb5137db_2 
+  qhull              conda-forge/linux-64::qhull-2020.2-h434a139_5 
+  qt6-main           conda-forge/linux-64::qt6-main-6.7.2-hb12f9c5_4 
+  tornado            conda-forge/linux-64::tornado-6.4.1-py312h9a8786e_0 
+  wayland            conda-forge/linux-64::wayland-1.23.0-h5291e77_0 
+  xcb-util           conda-forge/linux-64::xcb-util-0.4.1-hb711507_2 
+  xcb-util-cursor    conda-forge/linux-64::xcb-util-cursor-0.1.4-h4ab18f5_2 
+  xcb-util-image     conda-forge/linux-64::xcb-util-image-0.4.0-hb711507_2 
+  xcb-util-keysyms   conda-forge/linux-64::xcb-util-keysyms-0.4.1-hb711507_0 
+  xcb-util-renderut~ conda-forge/linux-64::xcb-util-renderutil-0.3.10-hb711507_0 
+  xcb-util-wm        conda-forge/linux-64::xcb-util-wm-0.4.2-hb711507_0 
+  xkeyboard-config   conda-forge/linux-64::xkeyboard-config-2.42-h4ab18f5_0 
+  xorg-kbproto       conda-forge/linux-64::xorg-kbproto-1.0.7-h7f98852_1002 
+  xorg-libice        conda-forge/linux-64::xorg-libice-1.1.1-hd590300_0 
+  xorg-libsm         conda-forge/linux-64::xorg-libsm-1.2.4-h7391055_0 
+  xorg-libx11        conda-forge/linux-64::xorg-libx11-1.8.9-hb711507_1 
+  xorg-libxau        conda-forge/linux-64::xorg-libxau-1.0.11-hd590300_0 
+  xorg-libxdmcp      conda-forge/linux-64::xorg-libxdmcp-1.1.3-h7f98852_0 
+  xorg-libxext       conda-forge/linux-64::xorg-libxext-1.3.4-h0b41bf4_2 
+  xorg-libxrender    conda-forge/linux-64::xorg-libxrender-0.9.11-hd590300_0 
+  xorg-renderproto   conda-forge/linux-64::xorg-renderproto-0.11.1-h7f98852_1002 
+  xorg-xextproto     conda-forge/linux-64::xorg-xextproto-7.3.0-h0b41bf4_1003 
+  xorg-xproto        conda-forge/linux-64::xorg-xproto-7.0.31-h7f98852_1007 
+  zlib               conda-forge/linux-64::zlib-1.3.1-h4ab18f5_1 
+  zstd               conda-forge/linux-64::zstd-1.5.6-ha6fb4c9_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+qt6-main-6.7.2       | 44.4 MB   |                                                                               |   0% 
+pillow-10.4.0        | 40.1 MB   |                                                                               |   0% [A
+
+libllvm18-18.1.8     | 36.5 MB   |                                                                               |   0% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   |                                                                               |   0% [A[A[A
+
+
+
+icu-75.1             | 11.6 MB   |                                                                               |   0% [A[A[A[A
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   |                                                                               |   0% [A[A[A[A[A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   |                                                                               |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    |                                                                               |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libglib-2.80.3       | 3.7 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+fonttools-4.53.1     | 2.7 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libpq-16.4           | 2.4 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+font-ttf-ubuntu-0.83 | 1.5 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+harfbuzz-9.0.0       | 1.5 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+mysql-libs-8.3.0     | 1.5 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+krb5-1.21.3          | 1.3 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cairo-1.18.0         | 961 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pcre2-10.44          | 930 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tornado-6.4.1        | 820 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xorg-libx11-1.8.9    | 813 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mysql-common-8.3.0   | 762 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxml2-2.12.7       | 691 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+font-ttf-source-code | 684 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+freetype-2.12.1      | 620 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dbus-1.13.6          | 604 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libjpeg-turbo-3.0.0  | 604 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libxkbcommon-1.7.0   | 579 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alsa-lib-1.2.12      | 543 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zstd-1.5.6           | 542 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+icu-75.1             | 11.6 MB   | 1                                                                             |   0% [A[A[A[A
+pillow-10.4.0        | 40.1 MB   |                                                                               |   0% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   |                                                                               |   0% [A[A[A
+
+
+
+icu-75.1             | 11.6 MB   | #############7                                                                |  18% [A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ##5                                                                           |   3% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ####4                                                                         |   6% [A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   |                                                                               |   0% [A[A
+
+
+
+icu-75.1             | 11.6 MB   | #########################2                                                    |  33% [A[A[A[A
+pillow-10.4.0        | 40.1 MB   | #####1                                                                        |   7% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ########                                                                      |  10% [A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | #6                                                                            |   2% [A[Aqt6-main-6.7.2       | 44.4 MB   |                                                                               |   0% 
+
+
+
+icu-75.1             | 11.6 MB   | ##################################9                                           |  45% [A[A[A[A
+pillow-10.4.0        | 40.1 MB   | #######2                                                                      |   9% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ##########9                                                                   |  14% [A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ###5                                                                          |   5% [A[Aqt6-main-6.7.2       | 44.4 MB   | 5                                                                             |   1% 
+
+
+
+icu-75.1             | 11.6 MB   | ############################################7                                 |  58% [A[A[A[A
+pillow-10.4.0        | 40.1 MB   | #########5                                                                    |  12% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ##############2                                                               |  19% [A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | #####1                                                                        |   7% [A[Aqt6-main-6.7.2       | 44.4 MB   | #9                                                                            |   3% 
+
+
+
+icu-75.1             | 11.6 MB   | ######################################################2                       |  71% [A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ###########6                                                                  |  15% [A
+
+libllvm18-18.1.8     | 36.5 MB   | ######8                                                                       |   9% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | #################2                                                            |  22% [A[A[A
+
+
+
+icu-75.1             | 11.6 MB   | ###############################################################4              |  82% [A[A[A[A
+pillow-10.4.0        | 40.1 MB   | #############8                                                                |  18% [A
+
+libllvm18-18.1.8     | 36.5 MB   | ########                                                                      |  10% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ###################5                                                          |  25% [A[A[A
+
+
+
+icu-75.1             | 11.6 MB   | ######################################################################8       |  92% [A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | #########2                                                                    |  12% [A[A
+pillow-10.4.0        | 40.1 MB   | ###############6                                                              |  20% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | #####################6                                                        |  28% [A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ##########7                                                                   |  14% [A[Aqt6-main-6.7.2       | 44.4 MB   | ##6                                                                           |   3% 
+pillow-10.4.0        | 40.1 MB   | #################9                                                            |  23% [A
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | 1                                                                             |   0% [A[A[A[A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ########################7                                                     |  32% [A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ############7                                                                 |  16% [A[A
+pillow-10.4.0        | 40.1 MB   | ####################2                                                         |  26% [Aqt6-main-6.7.2       | 44.4 MB   | ###3                                                                          |   4% 
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | ##########8                                                                   |  14% [A[A[A[A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ###########################3                                                  |  36% [A[A[A
+
+
+
+icu-75.1             | 11.6 MB   | ############################################################################# | 100% [A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ##############6                                                               |  19% [A[A
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | #################2                                                            |  22% [A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ######################2                                                       |  29% [Aqt6-main-6.7.2       | 44.4 MB   | ###8                                                                          |   5% 
+
+libllvm18-18.1.8     | 36.5 MB   | ###############7                                                              |  20% [A[A
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | ##############################9                                               |  40% [A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ########################4                                                     |  32% [Aqt6-main-6.7.2       | 44.4 MB   | ####4                                                                         |   6% 
+
+libllvm18-18.1.8     | 36.5 MB   | #################4                                                            |  23% [A[A
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | ##############################################                                |  60% [A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ###########################4                                                  |  36% [Aqt6-main-6.7.2       | 44.4 MB   | #####1                                                                        |   7% 
+
+libllvm18-18.1.8     | 36.5 MB   | ###################                                                           |  25% [A[A
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | #############################################################1                |  79% [A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ##############################1                                               |  39% [Aqt6-main-6.7.2       | 44.4 MB   | #####9                                                                        |   8% 
+
+libllvm18-18.1.8     | 36.5 MB   | ####################4                                                         |  27% [A[A
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | #########################################################################1    |  95% [A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ################################4                                             |  42% [Aqt6-main-6.7.2       | 44.4 MB   | ######5                                                                       |   9% 
+
+libllvm18-18.1.8     | 36.5 MB   | ######################8                                                       |  30% [A[A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | 1                                                                             |   0% [A[A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ###################################5                                          |  46% [Aqt6-main-6.7.2       | 44.4 MB   | #######6                                                                      |  10% 
+
+libllvm18-18.1.8     | 36.5 MB   | #########################6                                                    |  33% [A[A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ##########4                                                                   |  14% [A[A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | #####################################6                                        |  49% [Aqt6-main-6.7.2       | 44.4 MB   | ########4                                                                     |  11% 
+
+
+
+
+libclang13-18.1.8    | 10.5 MB   | ############################################################################# | 100% [A[A[A[A[A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ################4                                                             |  21% [A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ###########################4                                                  |  36% [A[A
+pillow-10.4.0        | 40.1 MB   | #######################################7                                      |  52% [Aqt6-main-6.7.2       | 44.4 MB   | #########1                                                                    |  12% 
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ###########################                                                   |  35% [A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ##############################3                                               |  39% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | #############################7                                                |  39% [A[A[A
+pillow-10.4.0        | 40.1 MB   | ##########################################3                                   |  55% [Aqt6-main-6.7.2       | 44.4 MB   | #########8                                                                    |  13% 
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ###################################5                                          |  46% [A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ################################2                                             |  42% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ################################7                                             |  43% [A[A[A
+pillow-10.4.0        | 40.1 MB   | ############################################5                                 |  58% [Aqt6-main-6.7.2       | 44.4 MB   | ##########5                                                                   |  14% 
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ##########################################6                                   |  55% [A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | #################################9                                            |  44% [A[Aqt6-main-6.7.2       | 44.4 MB   | ###########3                                                                  |  15% 
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ##################################8                                           |  45% [A[A[A
+pillow-10.4.0        | 40.1 MB   | ##############################################4                               |  60% [A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ###################################################9                          |  67% [A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ####################################3                                         |  47% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ####################################4                                         |  47% [A[A[Aqt6-main-6.7.2       | 44.4 MB   | ############2                                                                 |  16% 
+pillow-10.4.0        | 40.1 MB   | ################################################5                             |  63% [A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | #############################################################7                |  80% [A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ######################################9                                       |  51% [A[A
+pillow-10.4.0        | 40.1 MB   | ##################################################7                           |  66% [Aqt6-main-6.7.2       | 44.4 MB   | #############2                                                                |  17% 
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ######################################1                                       |  49% [A[A[A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ########################################################################6     |  94% [A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | #########################################7                                    |  54% [A[A
+
+
+
+
+
+pyside6-6.7.2        | 10.1 MB   | ############################################################################# | 100% [A[A[A[A[A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | #######################################6                                      |  52% [A[A[A
+pillow-10.4.0        | 40.1 MB   | ####################################################7                         |  69% [Aqt6-main-6.7.2       | 44.4 MB   | ##############                                                                |  18% 
+
+libllvm18-18.1.8     | 36.5 MB   | ###########################################9                                  |  57% [A[A
+pillow-10.4.0        | 40.1 MB   | ######################################################8                       |  71% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ############################################4                                 |  58% [A[A[Aqt6-main-6.7.2       | 44.4 MB   | ###############2                                                              |  20% 
+
+libllvm18-18.1.8     | 36.5 MB   | #############################################9                                |  60% [A[A
+pillow-10.4.0        | 40.1 MB   | #########################################################4                    |  75% [A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ##################################################2                           |  65% [A[A[Aqt6-main-6.7.2       | 44.4 MB   | ################6                                                             |  22% 
+
+libllvm18-18.1.8     | 36.5 MB   | ################################################6                             |  63% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ########################################################3                     |  73% [A[A[A
+pillow-10.4.0        | 40.1 MB   | ###########################################################3                  |  77% [Aqt6-main-6.7.2       | 44.4 MB   | ##################3                                                           |  24% 
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | 1                                                                             |   0% [A[A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ##################################################7                           |  66% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | #############################################################9                |  80% [A[A[Aqt6-main-6.7.2       | 44.4 MB   | ###################9                                                          |  26% 
+pillow-10.4.0        | 40.1 MB   | #############################################################4                |  80% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | ####6                                                                         |   6% [A[A[A[A[A[A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ##################################################################5           |  86% [A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | #########5                                                                    |  12% [A[A[A[A[A[A[Aqt6-main-6.7.2       | 44.4 MB   | #####################2                                                        |  28% 
+
+libllvm18-18.1.8     | 36.5 MB   | ####################################################8                         |  69% [A[A
+pillow-10.4.0        | 40.1 MB   | ###############################################################3              |  82% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | ################4                                                             |  21% [A[A[A[A[A[A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | #####################################################################9        |  91% [A[A[Aqt6-main-6.7.2       | 44.4 MB   | ######################4                                                       |  29% 
+
+libllvm18-18.1.8     | 36.5 MB   | ######################################################6                       |  71% [A[A
+pillow-10.4.0        | 40.1 MB   | #################################################################6            |  85% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | #########################6                                                    |  33% [A[A[A[A[A[A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ###########################################################################3  |  98% [A[A[Aqt6-main-6.7.2       | 44.4 MB   | #######################8                                                      |  31% 
+
+libllvm18-18.1.8     | 36.5 MB   | ########################################################2                     |  73% [A[A
+pillow-10.4.0        | 40.1 MB   | ###################################################################4          |  88% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | ##################################1                                           |  44% [A[A[A[A[A[A[Aqt6-main-6.7.2       | 44.4 MB   | #########################3                                                    |  33% 
+
+libllvm18-18.1.8     | 36.5 MB   | ##########################################################5                   |  76% [A[A
+pillow-10.4.0        | 40.1 MB   | #####################################################################5        |  90% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | ###########################################8                                  |  57% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | 2                                                                             |   0% [A[A[A[A[A[A[A[Aqt6-main-6.7.2       | 44.4 MB   | ##########################6                                                   |  35% 
+
+libllvm18-18.1.8     | 36.5 MB   | ############################################################6                 |  79% [A[A
+pillow-10.4.0        | 40.1 MB   | #######################################################################6      |  93% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | #####################################################                         |  69% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ############                                                                  |  16% [A[A[A[A[A[A[A[Aqt6-main-6.7.2       | 44.4 MB   | ###########################8                                                  |  36% 
+
+libllvm18-18.1.8     | 36.5 MB   | ###############################################################               |  82% [A[A
+
+
+libclang-cpp18.1-18. | 18.3 MB   | ############################################################################# | 100% [A[A[A
+pillow-10.4.0        | 40.1 MB   | #########################################################################5    |  96% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | #############################################################2                |  79% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ##################9                                                           |  25% [A[A[A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | #################################################################             |  84% [A[Aqt6-main-6.7.2       | 44.4 MB   | #############################                                                 |  38% 
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | ######################################################################7       |  92% [A[A[A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ###########################################################################5  |  98% [A
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ####################################                                          |  47% [A[A[A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ##################################################################5           |  86% [A[Aqt6-main-6.7.2       | 44.4 MB   | ##############################                                                |  39% 
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ########################################################1                     |  73% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libglib-2.80.3       | 3.7 MB    | 3                                                                             |   0% [A[A[A[A[A[A[A[A[A
+
+libllvm18-18.1.8     | 36.5 MB   | ####################################################################4         |  89% [A[A
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 7.7 MB    | ############################################################################# | 100% [A[A[A[A[A[A[A
+pillow-10.4.0        | 40.1 MB   | ############################################################################# | 100% [ARetrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='conda.anaconda.org', port=443): Read timed out. (read timeout=60.0)")': /conda-forge/linux-64/fonttools-4.53.1-py312h41a817b_0.conda
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='conda.anaconda.org', port=443): Read timed out. (read timeout=60.0)")': /conda-forge/linux-64/libpq-16.4-h482b261_0.conda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                                                                                        
+                                                                                                                        [A
+
+                                                                                                                        [A[A
+
+
+                                                                                                                        [A[A[A
+
+
+
+                                                                                                                        [A[A[A[A
+
+
+
+
+                                                                                                                        [A[A[A[A[A
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/conda-forge/linux-64/libglib-2.80.3-h315aac3_2.conda>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/conda-forge/linux-64/libllvm18-18.1.8-h8b73ec9_2.conda>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/conda-forge/linux-64/qt6-main-6.7.2-hb12f9c5_4.conda>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/conda-forge/linux-64/libglib-2.80.3-h315aac3_2.conda>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+
+[?2004h(myenvironment) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ [7mconda --version[27mconda --version
+[?2004lconda 24.3.0
+[?2004h(myenvironment) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ conda update versu[Kion[K[K[K[K[K[K[Kcod[Knda
+[?2004l
+PackageNotInstalledError: Package is not installed in prefix.
+  prefix: /home/naufalahad/conda/envs/myenvironment
+  package name: conda
+
+
+[?2004h(myenvironment) ]0;naufalahad@TIGER05066: ~[01;32mnaufalahad@TIGER05066[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-14 12:05:48+05:30 [COMMAND_EXIT_CODE="1"]
